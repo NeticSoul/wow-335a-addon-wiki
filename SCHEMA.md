@@ -48,7 +48,7 @@ wiki/
 - Links to concept and entity pages
 
 ### Concept Page (`concepts/topic-slug.md`)
-- Frontmatter: `chapters` (list of source chapters)
+- Frontmatter: `source_chapters` (list of source chapters)
 - Typical sections: Summary, Detailed Explanation, Examples, Common Bugs, Related Concepts
 - Aggregates knowledge from multiple chapters on a single topic
 

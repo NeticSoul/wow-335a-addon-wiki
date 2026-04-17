@@ -1,6 +1,6 @@
 # WoW 3.3.5a Addon Development Wiki
 
-A structured, interlinked knowledge base for World of Warcraft 3.3.5a (WotLK) addon development — **62 pages** of compiled, cross-referenced API docs, concepts, widget references, and implementation patterns.
+A structured, interlinked knowledge base for World of Warcraft 3.3.5a (WotLK) addon development — **64 pages** of compiled, cross-referenced API docs, concepts, widget references, and implementation patterns.
 
 <img width="1455" height="1110" alt="image" src="https://github.com/user-attachments/assets/82e33942-7a44-4661-afcb-59a300ba3393" />
 
@@ -20,7 +20,7 @@ The book's content was ingested, summarized, cross-referenced, and organized int
 
 **With Obsidian:** Open this folder as a vault. Browse the graph view, follow links between pages.
 
-**With an LLM agent:** Point your coding assistant at [`index.md`](index.md) — it contains a navigable catalog of all 62 pages organized by topic.
+**With an LLM agent:** Point your coding assistant at [`index.md`](index.md) — it contains a navigable catalog of all 64 pages organized by topic.
 
 **As plain Markdown:** Just read the files. Start with [`index.md`](index.md).
 
@@ -32,7 +32,7 @@ The book's content was ingested, summarized, cross-referenced, and organized int
 ├── SCHEMA.md             ← Wiki conventions and page types
 ├── log.md                ← Build log
 ├── chapters/      (34)   ← Chapter-by-chapter summaries
-├── concepts/      (18)   ← Cross-referenced topic pages
+├── concepts/      (20)   ← Cross-referenced topic pages
 ├── reference/      (3)   ← API categories, widget hierarchy, events catalog
 └── entities/       (4)   ← Sample addon breakdowns
 ```

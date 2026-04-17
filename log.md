@@ -45,3 +45,24 @@ Chronological record of wiki operations.
 - wiki/index.md — complete catalog of all 62 wiki pages
 - Organized by: chapters, concepts, reference, entities
 - Statistics: 34 chapters + 18 concepts + 3 reference + 4 entities + 3 meta = 62 pages
+
+## [2026-04-17] enrich | Deep rewrite of core concept cluster
+
+Source: `private/mcp/chapters_text/` raw MCP extracts only (no cross-contamination).
+Pattern applied: Summary / Detailed Explanation / Examples / Common Bugs / Related Concepts.
+
+Rewritten (deep expansion, 3–6× original length):
+- `concepts/events-system.md` — dispatch contract, table-dispatch idiom, lifecycle/query event tables, UNIT_* filtering, BAG_UPDATE quirk, cost model
+- `concepts/secure-execution.md` — trusted vs tainted, protected frames, full SecureActionButton type table, modified-attribute grammar, 9 SecureHandler templates, restricted environment, frame handles, state drivers
+- `concepts/saved-variables.md` — 11-step load timeline, serialization rules, LoD, merge-defaults init, schema migration, PLAYER_LOGOUT
+- `concepts/combat-log.md` — 8 base args, full prefix/suffix matrix, special events, spell-school bitmask, unit flags masks, CombatLog_Object_IsA, GUID format, threat API
+- `concepts/frames-and-widgets.md` — widget type hierarchy, parenting/anchoring/layering three-tier model, draw layers, widget cheat sheet, textures/font strings, $parent/parentKey, /framestack
+- `concepts/frame-templates.md` — virtual declaration, inheritance, script chaining, font definitions, Blizzard template catalog, copy-vs-inherit strategy
+- `concepts/function-hooking.md` — four mechanisms compared, pre/post hook patterns, capture/release, SetScript vs HookScript, hooksecurefunc, hook chain, hooking alternatives
+- `concepts/tooltips.md` — anatomy, owner/anchor lifecycle, Set* methods, OnTooltipSet* async, scanner pattern, localization via GlobalStrings, custom tooltip creation
+
+New concept pages:
+- `concepts/addon-loading-lifecycle.md` — authoritative lifecycle event ordering; load/login/reload/logout timeline
+- `concepts/onupdate-throttling.md` — OnUpdate semantics, Delay/Throttle/Repeat patterns, performance rules, throttle choice heuristic
+
+Index updated to reflect 20 concept pages (was 18); total 64 wiki pages.

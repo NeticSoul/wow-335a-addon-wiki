@@ -1,0 +1,7 @@
+private/
+.obsidian/
+
+.env
+.env.*
+*.env
+*.log

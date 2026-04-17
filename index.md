@@ -2,7 +2,7 @@
 title: Wiki Index
 type: index
 created: 2026-04-15
-updated: 2026-04-15
+updated: 2026-04-17
 ---
 
 # WoW 3.3.5a Programming Wiki — Index
@@ -83,6 +83,7 @@ Complete page catalog for this wiki, built from "World of Warcraft Programming" 
 | [addon-structure](concepts/addon-structure.md) | Addon files and organization | 1, 8 |
 | [toc-file](concepts/toc-file.md) | TOC directives reference | 8 |
 | [saved-variables](concepts/saved-variables.md) | Persistent data | 8 |
+| [addon-loading-lifecycle](concepts/addon-loading-lifecycle.md) | Load/login/reload event timeline | 8, 13 |
 | [frames-and-widgets](concepts/frames-and-widgets.md) | Core UI widget system | 9, 12, 29 |
 | [frame-templates](concepts/frame-templates.md) | Template and inheritance | 10, 15, 26 |
 | [wow-api](concepts/wow-api.md) | API overview and types | 11, 27, 28 |
@@ -91,6 +92,7 @@ Complete page catalog for this wiki, built from "World of Warcraft Programming" 
 | [unit-ids](concepts/unit-ids.md) | Unit ID tokens | 11, 26 |
 | [combat-log](concepts/combat-log.md) | Combat log event parsing | 21 |
 | [function-hooking](concepts/function-hooking.md) | Pre/post/secure hooks | 19 |
+| [onupdate-throttling](concepts/onupdate-throttling.md) | Per-frame updates, delay/throttle patterns | 14, 18 |
 | [slash-commands](concepts/slash-commands.md) | Custom chat commands | 17 |
 | [key-bindings](concepts/key-bindings.md) | Input bindings | 16 |
 | [tooltips](concepts/tooltips.md) | Tooltip construction and scanning | 24 |
@@ -122,7 +124,7 @@ Complete page catalog for this wiki, built from "World of Warcraft Programming" 
 
 ## Statistics
 - **Chapter summaries**: 34
-- **Concept pages**: 18
+- **Concept pages**: 20
 - **Reference pages**: 3
 - **Entity pages**: 4
-- **Total wiki pages**: 62 (including index, overview, schema, log)
+- **Total wiki pages**: 64 (including index, overview, schema, log)

@@ -2,8 +2,7 @@
 
 A structured, interlinked knowledge base for World of Warcraft 3.3.5a (WotLK) addon development — **64 pages** of compiled, cross-referenced API docs, concepts, widget references, and implementation patterns.
 
-<img width="1455" height="1110" alt="image" src="https://github.com/user-attachments/assets/82e33942-7a44-4661-afcb-59a300ba3393" />
-
+<img width="1139" height="874" alt="image" src="https://github.com/user-attachments/assets/e0b46fc0-3d28-4aeb-9357-3c2288010e84" />
 
 ---
 

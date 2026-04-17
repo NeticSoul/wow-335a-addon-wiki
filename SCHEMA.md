@@ -49,7 +49,7 @@ wiki/
 
 ### Concept Page (`concepts/topic-slug.md`)
 - Frontmatter: `chapters` (list of source chapters)
-- Sections: Definition, How It Works, Key APIs/Elements, Practical Usage, See Also
+- Typical sections: Summary, Detailed Explanation, Examples, Common Bugs, Related Concepts
 - Aggregates knowledge from multiple chapters on a single topic
 
 ### Entity Page (`entities/entity-slug.md`)
